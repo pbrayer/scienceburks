@@ -3,7 +3,6 @@ import { connect, styled } from "frontity";
 import Link from "./link";
 import Nav from "./nav";
 import MobileMenu from "./menu";
-import Button from "react-bootstrap/button";
 
 const Header = ({ state }) => {
   return (

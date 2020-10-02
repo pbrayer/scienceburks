@@ -1,0 +1,109 @@
+{
+  "errors": [],
+  "warnings": [],
+  "version": "4.44.1",
+  "hash": "0f31b8c919e9e71c6bec",
+  "publicPath": "/static/",
+  "outputPath": "C:\\Users\\skell\\desktop\\bootcamp\\AlinaSite\\scienceburks\\build\\static",
+  "assetsByChunkName": {
+    "list": "list.module.785feef5996063b03cb2.js",
+    "scienceburks": "scienceburks.module.2709cd857799f29b59c7.js"
+  },
+  "assets": [
+    {
+      "name": "images/background-7aad4698bd5b18bc09cf9ab288c28ef0.png",
+      "size": 1452086,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/default_avatar-d664bf2dcf00b22a1c4d80a887e5f62d.png",
+      "size": 2773,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "images/welcomebit-f0f0e2771b5db54316873fa8deeabd44.png",
+      "size": 106185,
+      "chunks": [],
+      "chunkNames": [],
+      "info": {},
+      "emitted": false
+    },
+    {
+      "name": "list.module.785feef5996063b03cb2.js",
+      "size": 5589,
+      "chunks": [
+        0
+      ],
+      "chunkNames": [
+        "list"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    },
+    {
+      "name": "scienceburks.module.2709cd857799f29b59c7.js",
+      "size": 471440,
+      "chunks": [
+        1
+      ],
+      "chunkNames": [
+        "scienceburks"
+      ],
+      "info": {
+        "immutable": true
+      },
+      "emitted": false
+    }
+  ],
+  "filteredAssets": 0,
+  "entrypoints": {
+    "scienceburks": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "scienceburks.module.2709cd857799f29b59c7.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "namedChunkGroups": {
+    "scienceburks": {
+      "chunks": [
+        1
+      ],
+      "assets": [
+        "scienceburks.module.2709cd857799f29b59c7.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    },
+    "list": {
+      "chunks": [
+        0
+      ],
+      "assets": [
+        "list.module.785feef5996063b03cb2.js"
+      ],
+      "children": {},
+      "childAssets": {}
+    }
+  },
+  "logging": {
+    "webpack.buildChunkGraph.visitModules": {
+      "entries": [],
+      "filteredEntries": 5,
+      "debug": false
+    }
+  },
+  "children": []
+}

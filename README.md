@@ -1,53 +1,21 @@
 # scienceburks
 
+This is a mockup teacher site I created and am currently working on. Very topical while we have students utilizing online learning!
+
+ It uses WordPress for CMS, React, and a framework called Frontity to combine the two.
+
+The production environment is hosted on Vercel here: (https://scienceburks.vercel.app/)
+
+### Framework Used
+
 This project was bootstrapped with [Frontity](https://frontity.org/).
 
-#### Table of Contents
+#### TO-DO:
 
-- [Launch a development server](#launch-a-development-server)
-- [Create your custom theme](#create-your-custom-theme)
-- [Create a production-ready build](#create-a-production-ready-build)
-- [Deploy](#deploy)
-
-### Launch a development server
-
-```
-npx frontity dev
-```
-
-Runs the app in development mode. Open http://localhost:3000 to view it in the browser.
-
-The site will automatically reload if you make changes inside the `packages` folder. You will see the build errors in the console.
-
-> Have a look at our [Quick Start Guide](https://docs.frontity.org/getting-started/quick-start-guide)
-
-### Create your custom theme
-
-```
-npx frontity create-package your-custom-theme
-```
-
-Use the command `npx frontity create-package` to create a new package that can be set in your `frontity.settings.js` as your theme
-
-> Have a look at our blog post [How to Create a React WordPress Theme in 30 Minutes](https://frontity.org/blog/how-to-create-a-react-theme-in-30-minutes/)
-
-### Create a production-ready build
-
-```
-npx frontity build
-```
-
-Builds the app for production to the `build` folder.
-
-This will create a `/build` folder with a `server.js` (a [serverless function](https://vercel.com/docs/v2/serverless-functions/introduction)) file and a `/static` folder with all your javascript files and other assets.
-
-Your app is ready to be deployed.
-
-> Get more info about [Frontity's architecture](https://docs.frontity.org/architecture)
-
-### Deploy
-
-With the files generated in the _build_ you can deploy your project
+- User authentication, User creation
+- Point scoring system for students
+- Footer drop down functionality
+- Log out / Log in functionality
 
 #### As a node app
 
@@ -72,9 +40,3 @@ We have different channels at your disposal where you can find information about
 - 🐞 **[GitHub](https://github.com/frontity/frontity)**: we use GitHub for bugs and pull requests. Questions are answered in the [community forum](https://community.frontity.org/)!
 - 🗣 **Social media**: a more informal place to interact with Frontity users, reach out to us on [Twitter](https://twitter.com/frontity).
 - 💌 **Newsletter**: do you want to receive the latest framework updates and news? Subscribe [here](https://frontity.org/)
-
-### » Get involved 🤗
-
-Got questions or feedback about Frontity? We'd love to hear from you. Use our [community forum](https://community.frontity.org) yo ! ❤️
-
-Frontity also welcomes contributions. There are many ways to support the project! If you don't know where to start, this guide might help → [How to contribute?](https://docs.frontity.org/contributing/how-to-contribute)
