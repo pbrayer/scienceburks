@@ -1,25 +1,26 @@
 {
   "errors": [],
   "warnings": [],
-  "version": "4.44.1",
-  "hash": "0f31b8c919e9e71c6bec",
+  "version": "4.44.2",
+  "hash": "63f6a1e973b4eca370e5",
   "publicPath": "/static/",
-  "outputPath": "C:\\Users\\skell\\desktop\\bootcamp\\AlinaSite\\scienceburks\\build\\static",
+  "outputPath": "C:\\Users\\skell\\Desktop\\Bootcamp\\AlinaSite\\scienceburks\\build\\static",
   "assetsByChunkName": {
-    "list": "list.module.785feef5996063b03cb2.js",
-    "scienceburks": "scienceburks.module.2709cd857799f29b59c7.js"
+    "list": "list.module.js",
+    "scienceburks": "scienceburks.module.js"
   },
   "assets": [
     {
-      "name": "images/background-7aad4698bd5b18bc09cf9ab288c28ef0.png",
+      "name": "images/background.png",
       "size": 1452086,
       "chunks": [],
       "chunkNames": [],
       "info": {},
-      "emitted": false
+      "emitted": false,
+      "isOverSizeLimit": true
     },
     {
-      "name": "images/default_avatar-d664bf2dcf00b22a1c4d80a887e5f62d.png",
+      "name": "images/default_avatar.png",
       "size": 2773,
       "chunks": [],
       "chunkNames": [],
@@ -27,7 +28,7 @@
       "emitted": false
     },
     {
-      "name": "images/welcomebit-f0f0e2771b5db54316873fa8deeabd44.png",
+      "name": "images/welcomebit.png",
       "size": 106185,
       "chunks": [],
       "chunkNames": [],
@@ -35,42 +36,39 @@
       "emitted": false
     },
     {
-      "name": "list.module.785feef5996063b03cb2.js",
-      "size": 5589,
+      "name": "list.module.js",
+      "size": 85349,
       "chunks": [
-        0
+        "list"
       ],
       "chunkNames": [
         "list"
       ],
-      "info": {
-        "immutable": true
-      },
+      "info": {},
       "emitted": false
     },
     {
-      "name": "scienceburks.module.2709cd857799f29b59c7.js",
-      "size": 471440,
+      "name": "scienceburks.module.js",
+      "size": 5954787,
       "chunks": [
-        1
+        "scienceburks"
       ],
       "chunkNames": [
         "scienceburks"
       ],
-      "info": {
-        "immutable": true
-      },
-      "emitted": false
+      "info": {},
+      "emitted": true,
+      "isOverSizeLimit": true
     }
   ],
   "filteredAssets": 0,
   "entrypoints": {
     "scienceburks": {
       "chunks": [
-        1
+        "scienceburks"
       ],
       "assets": [
-        "scienceburks.module.2709cd857799f29b59c7.js"
+        "scienceburks.module.js"
       ],
       "children": {},
       "childAssets": {}
@@ -79,20 +77,20 @@
   "namedChunkGroups": {
     "scienceburks": {
       "chunks": [
-        1
+        "scienceburks"
       ],
       "assets": [
-        "scienceburks.module.2709cd857799f29b59c7.js"
+        "scienceburks.module.js"
       ],
       "children": {},
       "childAssets": {}
     },
     "list": {
       "chunks": [
-        0
+        "list"
       ],
       "assets": [
-        "list.module.785feef5996063b03cb2.js"
+        "list.module.js"
       ],
       "children": {},
       "childAssets": {}

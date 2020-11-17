@@ -28,6 +28,7 @@ const Theme = ({ state }) => {
       <Head>
         <meta name="description" content={state.frontity.description} />
         <html lang="en" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       </Head>
 
       {/* Add some global styles for the whole site, like body or a's. 
@@ -65,10 +66,16 @@ const globalStyles = css`
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
       "Droid Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   }
-  a,
   a:visited {
     color: inherit;
     text-decoration: none;
+  }
+  a{
+    color: white !important;
+  }
+  @media (max-width: 1440px) {
+    .sidebar {
+      display: none !important;
   }
 `;
 
